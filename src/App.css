@@ -1,0 +1,45 @@
+body {
+  font-size: 14px;
+}
+
+.pokemon-container {
+  display: grid;
+  column-gap: 0.75rem;
+  row-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.pokemon-item-image {
+  background: #f0f0f0;
+  border-radius: 0.5rem;
+}
+
+.pokemon-image {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.pokemon-item-desp {
+  padding-left: 1rem;
+  padding-top: 0.25rem;
+}
+.pokemon-item-id {
+  color: #ccc;
+  font-size: 0.75rem;
+}
+
+.pokemon-item-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.pokemon-item-type {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.type-item {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
